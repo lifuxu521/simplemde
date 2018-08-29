@@ -1,6 +1,6 @@
 {
   "name": "simplemdeoss",
-  "version": "1.11.3",
+  "version": "1.11.4",
   "description": "A simple, beautiful, and embeddable JavaScript Markdown editor. Features autosaving and spell checking.",
   "keywords": [
     "embeddable",
@@ -20,7 +20,8 @@
   "dependencies": {
     "codemirror": "*",
     "codemirror-spell-checker": "*",
-    "marked": "*"
+    "marked": "*",
+    "font-awesome": "*"
   },
   "devDependencies": {
     "browserify": "*",
