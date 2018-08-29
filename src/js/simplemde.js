@@ -747,7 +747,7 @@ function uploadOss(editor) {
 			//步骤一:创建异步对象
 			var signatures = new XMLHttpRequest();
 			//步骤二:设置请求的url参数,参数一是请求的类型,参数二是请求的url,可以带参数,动态的传递参数starName到服务端
-			signatures.open("get", "https");
+			signatures.open("get", "https/url");
 			signatures.setRequestHeader("Authorization", uploadFileToken);
 			//步骤三:注册事件 onreadystatechange 状态改变就会调用
 			signatures.onreadystatechange = function() {
