@@ -1,6 +1,6 @@
 {
   "name": "simplemdeoss",
-  "version": "1.11.4",
+  "version": "1.11.5",
   "description": "A simple, beautiful, and embeddable JavaScript Markdown editor. Features autosaving and spell checking.",
   "keywords": [
     "embeddable",
