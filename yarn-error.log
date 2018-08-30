@@ -1,0 +1,79 @@
+Arguments: 
+  /usr/local/Cellar/node/10.9.0/bin/node /usr/local/bin/yarn
+
+PATH: 
+  /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.9.4
+
+Node version: 
+  10.9.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/fuxuli/niuzhan/test/simplemde/package.json: Unexpected token } in JSON at position 685
+      at JSON.parse (<anonymous>)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:1130:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/lib/node_modules/yarn/lib/cli.js:92:30)
+      at /usr/local/lib/node_modules/yarn/lib/cli.js:103:13
+
+npm manifest: 
+  {
+    "name": "simplemdeoss",
+    "version": "1.11.6",
+    "description": "A simple, beautiful, and embeddable JavaScript Markdown editor. Features autosaving and spell checking.",
+    "keywords": [
+      "embeddable",
+      "markdown",
+      "editor",
+      "javascript",
+      "wysiwyg"
+    ],
+    "homepage": "https://github.com/lifuxu521/simplemde.git",
+    "main": "./src/js/simplemde.js",
+    "license": "MIT",
+    "company": "Next Step Webs, Inc.",
+    "author": "Wes Cossick (http://www.WesCossick.com)",
+    "bugs": {
+      "url": "https://github.com/lifuxu521/simplemde/issues"
+    },
+    "dependencies": {
+      "font-awesome": "*",
+      "codemirror": "*",
+      "codemirror-spell-checker": "*",
+      "marked": "*",
+    },
+    "devDependencies": {
+      "browserify": "*",
+      "debug": "*",
+      "eslint": "*",
+      "gulp": "*",
+      "gulp-concat": "*",
+      "gulp-debug": "*",
+      "gulp-eslint": "*",
+      "gulp-header": "*",
+      "gulp-jsbeautifier": "*",
+      "gulp-clean-css": "*",
+      "gulp-rename": "*",
+      "gulp-uglify": "*",
+      "vinyl-source-stream": "*",
+      "vinyl-buffer": "*"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/lifuxu521/simplemde.git"
+    },
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
